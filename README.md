@@ -1,4 +1,4 @@
-**THIS SOFTWARE WORKS BUT IS NOT COMPLETE!**
+**/!\ WARNING /!\ THIS SOFTWARE WORKS BUT IS NOT COMPLETE!**
 
 This software is intended to run on an Advanced Computer (minimum) with its 51x19 screen (nothing less, nothing more).
 Place 3 speakers, top side, left side, and right side (sides are hardcoded).
