@@ -1,3 +1,5 @@
+# ComputerCraft Synthesia
+
 **/!\ WARNING /!\ THIS SOFTWARE WORKS BUT IS NOT FINISHED YET!**
 
 This software is intended to run on an Advanced Computer (minimum) with its 51x19 screen (nothing less, nothing more).
