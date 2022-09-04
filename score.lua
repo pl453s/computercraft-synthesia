@@ -3,19 +3,19 @@ instruments = {} -- instruments[channel] = {char, color, side, name}
 partitions  = {} -- partitions[channel][line][column] = volume
 
 -- MUSIC VARIABLES
-delay    = 20  -- HUNDREDTHS OF SECONDS BETWEEN EACH LINE
-measure  = 8   -- MEASURE LENGTH
-shift    = 0   -- GLOBAL TONE SHIFT
-length   = 0   -- PARTITION LENGTH
-channels = 0   -- NUMBER OF CHANNELS
+delay    = 20  -- HUNDREDTHS OF SECONDS BETWEEN EACH LINE (0 --> 100)
+measure  = 8   -- MEASURE LENGTH (0 --> 100)
+shift    = 0   -- GLOBAL TONE SHIFT (-20 --> 20)
+length   = 0   -- PARTITION LENGTH (0 --> ...)
+channels = 0   -- NUMBER OF CHANNELS (0 --> 12)
 
 -- RUNNING VARIABLES
-channel  = 0   -- CURRENT INSTRUMENT/CHANNEL (0=no channel --> 12 max)
+channel  = 0   -- CURRENT INSTRUMENT/CHANNEL (0=no channel --> number of channels)
 scroll   = 0   -- SCROLLING VIEW SHIFT (0 --> ...)
 volume   = 10  -- SELECTED VOLUME (0.1 -> 8.0)
 keypos   = 7   -- BOTTOM KEYBOARD FIRST NOTE (1 -> 12)
-keyupper = ""  -- KEYBOARD UPPER LINE LAYOUT (A -> Y)
-keylower = ""  -- KEYBOARD LOWER LINE LAYOUT (A -> Y)
+keyupper = ""  -- KEYBOARD UPPER LINE LAYOUT ([@] ABCDEFGHIJKLMOPQRSTUVWXY [Z])
+keylower = ""  -- KEYBOARD LOWER LINE LAYOUT ([@] ABCDEFGHIJKLMOPQRSTUVWXY [Z])
 
 -- CONSTANTS AND SPEAKERS CONNECTIONS
 palette  = "ce145d93ba26" -- CHANNELS COLOR PALETTE
