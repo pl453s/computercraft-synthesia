@@ -10,7 +10,7 @@ length   = 0   -- PARTITION LENGTH (0 --> ...)
 channels = 0   -- NUMBER OF CHANNELS (0 --> 12)
 
 -- RUNNING VARIABLES
-channel  = 0   -- CURRENT INSTRUMENT/CHANNEL (0=no channel --> number of channels)
+channel  = 0   -- CURRENT INSTRUMENT/CHANNEL (0 --> number of channels)
 scroll   = 0   -- SCROLLING VIEW SHIFT (0 --> ...)
 volume   = 10  -- SELECTED VOLUME (0.1 -> 8.0)
 keypos   = 7   -- BOTTOM KEYBOARD FIRST NOTE (1 -> 12)
