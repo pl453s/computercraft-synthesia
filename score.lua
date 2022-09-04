@@ -3,7 +3,7 @@ instruments = {} -- instruments[channel] = {char, color, side, name}
 partitions  = {} -- partitions[channel][line][column] = volume
 
 -- MUSIC VARIABLES
-delay    = 20  -- SECONDS BETWEEN NOTES
+delay    = 20  -- HUNDREDTHS OF SECONDS BETWEEN EACH LINE
 measure  = 8   -- MEASURE LENGTH
 shift    = 0   -- GLOBAL TONE SHIFT
 length   = 0   -- PARTITION LENGTH
