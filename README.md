@@ -11,3 +11,22 @@ This software was created for Minecraft 1.12.2, but it should works with later v
 You must manually type the name of the instruments, if you type an invalid name, the software will crash during playback!
 
 For performances reasons, I didn't try to make the notes "fall" on the keys, so this software is not very YouTube-able!
+
+<table>
+  <tr>
+    <td>
+      <img src="screens/1.png">
+    </td>
+    <td>
+      <img src="screens/2.png">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="screens/3.png">
+    </td>
+    <td>
+      <img src="screens/4.png">
+    </td>
+  </tr>
+</table>
