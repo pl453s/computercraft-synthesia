@@ -1,3 +1,13 @@
+-- CREATE VIRTUAL SPEAKERS WHEN USING CRAFTOS
+if periphemu then
+	periphemu.remove("top")
+	periphemu.remove("left")
+	periphemu.remove("right")
+	periphemu.create("top", "speaker")
+	periphemu.create("left", "speaker")
+	periphemu.create("right", "speaker")
+end
+
 -- INSTRUMENTS AND PARTITIONS TABLES
 instruments = {} -- instruments[channel] = {char, color, side, name}
 partitions  = {} -- partitions[channel][line][column] = volume
